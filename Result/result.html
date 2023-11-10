@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="result.css">
+    <link href="//db.onlinewebfonts.com/c/c1f81144897fc5acffc67de8febd9690?family=Saiyan+Sans" rel="stylesheet" type="text/css"/>
+    <title>Result Page</title>
+    <style>
+        body
+        {
+            background-size:1200px;
+            background-repeat: no-repeat;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="vidDiv"></div>
+
+    <div id="main">
+        <div id="gifDiv"></div>
+        <div id="resultDiv"></div>
+    </div>
+
+    <div id="msg">
+        <div id="flap"></div>
+        <div id="written">
+            <!-- <button id="btn">Click Me!!!</button> -->
+            <button onclick="gokuMsgFunc()" id="btnNew">Click me</button>
+        </div>
+    </div>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+          <p id="gokuMsg">This is the content of the popup.</p>
+          <a href="../Game/dbz.html"><button class="Restart">Play Again</button></a>
+          <button onclick="hidePopup()" class="Restart">Go back</button>
+        </div>
+      </div>
+
+    <script src="result.js"></script>
+    <!-- <script>
+        // Attach the click event listener to the button using JavaScript
+        var btn = document.getElementById('btn');
+        btn.addEventListener('click', gokuMsgFunc());
+    </script> -->
+
+</body>
+</html>

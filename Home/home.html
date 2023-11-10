@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+    <h1 class="heading">
+        <span class="d">D</span><span class="r">R</span><span class="a1">A</span><span class="g">G</span><span
+            class="o">O</span><span class="n">N</span><span class="b">B</span><span class="a2">A</span><span
+            class="l1">L</span><span class="l2">L</span><span class="z">Z</span><span class="game"> GAME</span>
+    </h1><br><br>
+    <video autoplay="true" loop="true" src="bckvideo.mp4"></video>
+    <main>
+        <div class="msg">
+            <h3 class="msg1">ARE YOU A SAIYAN OF OUR WORLD </h3>
+            <br>
+            <h3 class="msg2"> "IF NOT JOIN NOW ,Unleash your potential by logging in or signing up and become a legend
+                in our Saiyan community!"</h3>
+        </div>
+
+        <div class="button">
+            <button class="btn login">Login</button>
+            <button class="btn signup">Sign Up</button>
+        </div>
+
+        <div id="login" class="modal hidden">
+            <form id="window" action="post">
+                <h2 class="head">LOGIN</h2>
+                <h3 class="nickname">Nickname</h3>
+                <input type="text" placeholder="Enter Nickname">
+                <h3 class="password">Password</h3>
+                <input type="password" placeholder="Enter Password" required><br>
+                <div class="button">
+                    <button class="inbutton" type="submit" value="Sign In">Sign In</button>
+                    <button id="loginbackbtn" class=" close">Go Back</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="overlay hidden"></div>
+
+        <div id="signup" class="modal hidden">
+            <form id="window" action="post">
+                <h2 class="head">SIGN UP</h2>
+                <h3 class="username">Username</h3>
+                <input type="text" placeholder="Enter Username">
+                <h3 class="nickname">Nickname</h3>
+                <input type="text" placeholder="Enter Nickname">
+                <h3 class="birth">Date of Birth</h3>
+                <input type="date" placeholder="Enter Date of Birth">
+                <h3 class="password">Password</h3>
+                <input type="password" placeholder="Enter Password" required>
+                <div class="button" id="signupbtn">
+                    <button class="inbutton" type="submit" value="Sign In">Sign In</button>
+                    <button id="signupbackbtn" class=" close">Go Back</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="overlay hidden"></div>
+    </main>
+    <script src="home.js"></script>
+</body>
+
+</html>

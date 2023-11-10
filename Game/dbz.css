@@ -1,0 +1,169 @@
+@import url(//db.onlinewebfonts.com/c/c1f81144897fc5acffc67de8febd9690?family=Saiyan+Sans);
+#window{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+#rightButton{
+    height:40px;
+    width:40px
+}
+body{
+    background-image: url("https://r4.wallpaperflare.com/wallpaper/998/171/630/dragon-ball-z-dragon-ball-dragon-ball-z-kakarot-son-goku-vegeta-hd-wallpaper-f930c80de11a5d0b2657385f80a1960d.jpg");
+    /* background-image: url("background\ img/5.jpg"); */
+    background-size: cover;
+}
+
+#hairdiv
+{
+    height:10px;
+    width: 10px;
+    position: relative;
+    top: -250px;
+    left: -110px;
+}
+
+.HairImage
+{
+    width: 950px;
+    height: 700px;
+}
+
+#eyediv
+{
+    height:10px;
+    width: 10px;
+    position: relative;
+    top: 198px;
+    left: 225px;
+}
+
+.EyeImage
+{
+    width: 280px;
+}
+
+#nosediv
+{
+    height:10px;
+    width: 10px;
+    position: relative;
+    top: 295px;
+    left: 340px;
+}
+
+.NoseImage
+{
+    width: 50px;
+}
+
+#mouthdiv
+{
+    height:10px;
+    width: 10px;
+    position: relative;
+    top: 335px;
+    left: 295px;
+}
+
+.MouthImage
+{
+    width: 150px;
+    height: 50px;
+}
+
+.faceImg
+{
+    margin-left: -300px;
+}
+
+#gamename{
+    font-size:90px;
+    font-weight: 20px;
+    font-family: Saiyan Sans;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 8px;
+}
+#choose{
+    width: 65%;
+    height: 480px;
+    margin:5px
+}
+#face{
+    padding-right: 100px;
+    padding-left: 0px;
+    width: 30%;
+    height: 480px;
+    text-align: center;
+}
+.element{
+    height:38px;
+    width: 100px;
+    transition: all 0.5s;
+}
+.element:hover{
+    transform: translateY(-0.25em);
+}
+.attributesheading{
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    font-size: 25px;
+    padding-left: 50px;
+    margin-bottom: 35px;
+}
+.attributes{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.box{
+    height: 50px;
+    width: 100px;
+}
+.c11,.div1,.c13,.div2,.c15,.div3,.c17,.c18,.c19,.c110,.c111{
+    border-bottom:5px solid black;
+    box-sizing: border-box;
+}
+.c13, .c15{
+    width:40px;
+}
+.left, .right{
+    margin: 5px;
+}
+.c11{
+    border-left:5px solid black;
+    width: 30px;
+}
+.c111, .c17{
+    border-right:5px solid black;
+    width: 30px;
+}
+#blankface{
+    border: 4px solid orange;
+    border-radius: 30px;
+    height: 420px;
+    width: 400px;
+}
+#rules{
+    position: relative;
+    right: 150px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    /*font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;*/
+    font-family: Saiyan Sans;
+    font-weight: 100;
+    font-size: 35px;
+    color: rgb(13, 197, 102);
+    -webkit-text-stroke: 2px black;
+}
+audio{
+    height: 10px;
+    width: 100px;
+}
